@@ -65,7 +65,9 @@ while len(paths) != 0:
     for p in nps:
         paths.append(p)
 if final:
+    print("------")
     print("ANSWER")
+    print("------")
     maze2 = ["" for w in range(m)]
     for i in range(m):
         for j in range(n):
