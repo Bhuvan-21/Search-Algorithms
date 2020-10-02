@@ -20,7 +20,7 @@ def h(path):
 
 if len(sys.argv) != 2:
     print("Using default file")
-    p = "C:/Users/sachd/Downloads/src0/maze2.txt"
+    p = "maze2.txt"
 else:
     p = sys.argv[1]
 
